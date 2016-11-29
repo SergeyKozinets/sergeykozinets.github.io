@@ -2,93 +2,106 @@
   margin: 0;
   padding: 0;
 }
-.site {
-  margin: 2% 20% 2% 20%;
-  /*min-height: 100%;*/
 
+body {
+  background-color: #f9f9f9;
 }
+.site {
+  margin: 0 155px 0 155px;
+  padding: 40px 50px 40px 50px;
+  border-left:solid #dbdbdb 1px;
+  border-right: solid #dbdbdb 1px;
+  font-family: 'Open Sans', Tahoma, sans-serif;
+  background-color: white;
+  box-shadow: 0 0 4px 2px rgba(221, 221, 221, 1);}
 /*HEADER*/
 .logo{
   margin-bottom: 20px;
 }
 .header {
-  height: 35px;
   text-align: center;
+}
+.header ul {
   background-color: #595959;
+  background: linear-gradient(to top left, #5e5e5e, #444343)
 }
 .header li {
   float: left;
   display: inline;
-  width: 15%;
-  height: 35px;
+  padding: 10px 25px 10px 25px;
 }
 .header a {
   color: white;
   text-decoration: none;
-  height: 35px;
-  vertical-align: -8px;
 }
  .header li:hover  {
   background-color: #3b3939;
+  border-left: solid 1px  #838383 ;
+  border-right: solid 1px  #838383 ;
 }
 /*SITEBAR*/
-.leftbar  {
+.sitebar  {
   float: left;
-  width: 25%;
+  width: 240px;
   padding-top:40px;
   border: 3px;
   list-style-type: none;
 }
-.leftbar li {
+.sitebar li {
+  margin-top: -1px;
   padding: 10px;
   border: 1px #ecebeb solid;
 }
-.leftbar a {
+.sitebar a {
   text-decoration: none;
   color: #595959;
 }
-.leftbar li:hover {
+.sitebar li:hover {
   background-color: #ecebeb;
 }
+.sitebar a:hover {
+  color:black;
+}
 /*CONTENT*/
-.img1 {
+.imgnews {
   float: right;
   margin-top: 40px;
   width: 65%;
 }
-.ris {
+.imgvelo {
   width: 100%;
   height: 100%;
   border: 1px #ecebeb solid;
 }
 .text {
-  color: #595959;
+  color: #2c2c2c;
   padding: 20px;
+}
+.clearfix :after{
+  content:"";
+  display: block;;
+  clear: both;
 }
 /*Footer*/
 .footer {
-clear: both;
-height: 35px;
-background-color: #ecebeb;
-text-align: center;
+  clear: both;
 }
 .footer li{
   float: left;
   display: inline;
-  width: 15%;
+  padding: 10px 25px 10px 25px;
+  background-color: #ecebeb;
 }
 .footer a{
   text-decoration: none;
   color: #595959;
-  vertical-align:-8px;
 }
 .footer a:hover{
  text-decoration: underline;
 }
 .footerright {
   color: #595959;
-  height: 100%;
-  float: right;
-  padding-right: 3%;
-  padding-top: 8px;
+  background-color: #ecebeb;
+  text-align: right;
+  padding: 10px 25px 10px 0;
 }
