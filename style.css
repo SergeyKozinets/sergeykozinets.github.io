@@ -13,7 +13,8 @@ body {
   border-right: solid #dbdbdb 1px;
   font-family: 'Open Sans', Tahoma, sans-serif;
   background-color: white;
-  box-shadow: 0 0 4px 2px rgba(221, 221, 221, 1);}
+  box-shadow: 0 0 4px 2px rgba(221, 221, 221, 1);
+}
 /*HEADER*/
 .logo{
   margin-bottom: 20px;
@@ -63,7 +64,7 @@ body {
   color:black;
 }
 /*CONTENT*/
-.imgnews {
+.content {
   float: right;
   margin-top: 40px;
   width: 65%;
