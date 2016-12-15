@@ -19,16 +19,16 @@ body {
   background-color: white;
 }
 .logo__img {
+  position: absolute;
   padding-left: 25px;
   padding-top: 7px;
-  position: absolute;
  }
  .text__img{
    color: #128aa7;
-   padding-left: 100px;
+   position: absolute;
+   margin-left: 100px;
    padding-top: 110px;
    font-size: 12px;
-   position: absolute;
  }
 .contacts{
   float: right;
