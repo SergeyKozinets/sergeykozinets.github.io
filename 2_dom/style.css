@@ -3,15 +3,15 @@
   padding: 0;
 }
 
-body {
+.site {
   background-color: #f9f9f9;
 }
-.site {
+.wrapper {
   width: 1060px;
   margin: 0  auto;
   padding: 40px 50px 40px 50px;
-  border-left:solid #dbdbdb 1px;
-  border-right: solid #dbdbdb 1px;
+  border-left:solid 1px #dbdbdb ;
+  border-right: solid 1px #dbdbdb ;
   font-family: 'Open Sans', Tahoma, sans-serif;
   background-color: white;
   box-shadow: 0 0 4px 2px rgba(221, 221, 221, 1);
@@ -20,17 +20,19 @@ body {
 .logo{
   margin-bottom: 20px;
 }
-.header ul {
+.header ul{
+  width: 100%;
+  float: left;
+  clear: both;
   background-color: #595959;
   background: linear-gradient(to top left, #5e5e5e, #444343);
 }
 .header li {
   float: left;
-  display: inline;
   padding: 10px 25px 10px 25px;
-  border-left: solid 1px ;
-  border-right: solid 1px ;
-  border-color: transparent;
+  list-style-type: none;
+  border-left: solid 1px transparent;
+  border-right: solid 1px transparent;
 }
 .header a {
   color: white;
@@ -43,13 +45,16 @@ body {
 }
 /*SITEBAR*/
 .container{
-  width: 100%;
   float: left;
+  clear: both;
+  width: 100%;
   margin: 0 auto;
   margin-top: 40px;
 }
 .sitebar  {
   float: left;
+  clear: both;
+
   border: 3px;
   list-style-type: none;
   width: 240px;
@@ -57,7 +62,7 @@ body {
 .sitebar li {
   padding: 10px;
   margin-top: -1px;
-  border: 1px #ecebeb solid;
+  border: solid 1px #ecebeb ;
 }
 .sitebar a {
   text-decoration: none;
@@ -80,24 +85,21 @@ body {
   width: 100%;
 }
 .imgvelo {
-   border: 1px #ecebeb solid;
+   border: solid 1px #ecebeb ;
 }
 .text {
   color: #2c2c2c;
   padding: 20px;
 }
-.clearfix :after{
-  content:"";
-  display: block;;
-  clear: both;
-}
+
 /*Footer*/
 .footer {
+  display: block;
   clear: both;
 }
 .footer li{
+  list-style-type: none;
   float: left;
-  display: inline;
   padding: 10px 25px 10px 25px;
   background-color: #ecebeb;
 }
@@ -106,7 +108,7 @@ body {
   color: #595959;
 }
 .footer a:hover{
- text-decoration: underline;
+  text-decoration: underline;
 }
 .footerright {
   color: #595959;
