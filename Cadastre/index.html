@@ -9,13 +9,16 @@
 
   <body>
     <div class="allsite">
-      <div class="header">
-        <ul class="rightmenu clearfix">
+      <div class="header clearfix">
+        <ul class="rightmenu">
           <li>Ola!<a href="#">Entrar</a>ou<a href="#">Cadastre-se</a></li>
           <li class="rightmenu__icon"><a href="#">Minhas Ofertas</a></li>
         </ul>
-        <img class="hatch clearfix" src="img/iconhatch.png" alt="hatch">
-        <ul class="leftmenu clearfix">
+        <div class="hatch">
+        <img src="img/iconhatch.png" alt="hatch">
+      </div>
+
+        <ul class="leftmenu">
           <li><a href="#">Ajuda</a></li>
           <li><a href="#">Contato</a></li>
           <li><a href="#">Forum</a></li>
@@ -29,31 +32,36 @@
         <h1>Cadastre-se</h1>
       </div>
       <div class="formbox__content">
-        <div class="formlike">
-          <div class="facebook ">
+         <div class="formlike">
+          <div class="facebook clearfix">
             <div class="facebook__icon">
               <img src="img/iconfacebook.png" alt="icon">
             </div>
             <div class="facebook__in">
-              <p><b>Log In</b> with <b>Facebook</b></p>
+              <a href="#"><p><b>Log In</b> with <b>Facebook</b></p></a>
             </div>
           </div>
+          <div class="band">
+            <img src="img/border.png" alt="band">
+            <p>OU</p>
+          </div>
+          <div class="formaction">
         <form action="#">
           <p><input type="text" name="first_name" id="first_name" placeholder="First Name" required></p>
           <p><input type="text" name="last_name" id="last_name" placeholder="Last Name" required></p>
           <p><input type="email" name="email" id="email" placeholder="Email Address" required></p>
           <p><input type="password" name="password" id="password" placeholder="Choose Password" required></p>
           <p><input type="password" name="password_confirm" id="password_confirm" placeholder="Password Confirm" required></p>
-          <p class="checkbox"><label><input type="checkbox" name="youbike" value="youbike" required>Send me Youbike updates and tips</p></label>
+          <p class="checkbox"><label><input type="checkbox" name="youbike" value="youbike" required>Send me Youbike updates and tips</label></p>
           <p class="submit"><input type="submit" value="Create my Account"></p>
         </form>
+      </div>
         <div class="footertext">
           <p>By clicking the button above, you agree to the Terms of Service</p>
           <p>Xiew our Privacy Policy</p>
         </div>
       </div>
-
-      </div>
+    </div>
     </div>
   </div>
 </div>
